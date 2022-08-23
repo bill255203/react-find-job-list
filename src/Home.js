@@ -21,16 +21,16 @@ const Home = () => {
             languages,
             tools,
           }) => (
-            <div className='section'>
+            <div className='section split'>
               <img src={logo} alt='' class='icon' />
-              <div className='content'>
+              <div className='content center split'>
                 <div className='file'>
                   <div className='up'>
                     <p>{company}</p>
                     {isNew && <p>New!</p>}
                     {featured && <p>Featured</p>}
                   </div>
-                  <div className='mid'>{position}</div>
+                  <div className='mid'><p>{position}</p></div>
                   <div className='down'>
                     <p>{postedAt}</p>
                     <p>{contract}</p>
