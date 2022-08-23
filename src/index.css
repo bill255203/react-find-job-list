@@ -1,0 +1,101 @@
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap");
+/* base styles */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  font-family: "Quicksand";
+  color: #333;
+}
+
+.navbar {
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  max-width: 600px;
+  margin: 0 auto;
+  border-bottom: 1px solid #f2f2f2;
+}
+
+.navbar h1 {
+  color: #f1356d;
+}
+
+.navbar .links {
+  margin-left: auto;
+}
+
+.content {
+  max-width: 800px;
+  margin: 40px auto;
+  padding: 20px;
+}
+
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* create new blog form */
+.create {
+  max-width: 400px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.create label {
+  text-align: left;
+  display: block;
+  font-weight: 500;
+}
+
+.create h2 {
+  font-size: 20px;
+  color: #f1356d;
+  margin-bottom: 30px;
+}
+
+.create input,
+.create textarea,
+.create select {
+  width: 100%;
+  padding: 6px 10px;
+  margin: 10px 0;
+  border: 2.5px solid #ddd;
+  box-sizing: border-box;
+  display: block;
+}
+
+.create textarea {
+  height: 10em;
+}
+
+.create button {
+  background: #f1356d;
+  color: #fff;
+  margin-top: 4em;
+  border: 0;
+  padding: 1em 2em;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.lines {
+  background: #f2f2f2;
+  border-radius: 30px;
+}
+
+.up,
+.down {
+  display: flex;
+  flex-direction: row;
+}
+
+.up > p,
+.mid,
+.down > p {
+  background-color: rgb(168, 135, 135);
+  margin: 2px;
+  font-size: 5px;
+  font-weight: 600;
+}
